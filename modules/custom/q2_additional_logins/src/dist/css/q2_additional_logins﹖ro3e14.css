@@ -1,0 +1,14 @@
+/**
+ * Additional Login Module Styles ******************************************************
+ */
+.path-admin [data-drupal-selector="edit-field-q2-login-paragraph"] table tbody tr td > div {
+  padding: 10px 25px; }
+
+.path-admin [data-drupal-selector="edit-field-q2-login-paragraph"] .paragraph-type-title {
+  font-weight: 600;
+  font-size: 1.1rem; }
+
+.path-admin [data-drupal-selector="edit-field-q2-login-paragraph"] .field--name-field-q2-login-form-action,
+.path-admin [data-drupal-selector="edit-field-q2-login-paragraph"] .field--name-field-q2-user-id-name,
+.path-admin [data-drupal-selector="edit-field-q2-login-paragraph"] .field--name-field-q2-password-name {
+  display: none; }

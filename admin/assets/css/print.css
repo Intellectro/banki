@@ -1,0 +1,7 @@
+#main-container {
+  display: none !important;
+}
+
+div.print-page {
+  display: block !important;
+}

@@ -1,0 +1,41 @@
+/*
+ * Max-width breakpoint mixin ******************************************************
+ */
+/*
+ * Smart Search styles *********************************************************************
+ */
+.q2-smart-search-form {
+  position: relative; }
+  .q2-smart-search-form input[type="search"]::-webkit-search-decoration,
+  .q2-smart-search-form input[type="search"]::-webkit-search-cancel-button,
+  .q2-smart-search-form input[type="search"]::-webkit-search-results-button,
+  .q2-smart-search-form input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none; }
+  .q2-smart-search-form .q2-smart-search-list {
+    display: none;
+    position: absolute;
+    z-index: 10000;
+    top: 100%;
+    left: 0;
+    margin: 0;
+    padding: 25px;
+    background: white;
+    list-style-type: none;
+    width: auto;
+    max-height: 250px;
+    overflow-y: scroll;
+    border: solid 1px lightgray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.05); }
+    .q2-smart-search-form .q2-smart-search-list li {
+      display: block; }
+      .q2-smart-search-form .q2-smart-search-list li a {
+        display: block; }
+        .q2-smart-search-form .q2-smart-search-list li a::after {
+          display: inline-block;
+          font-family: 'Font Awesome 5 Pro', sans-serif;
+          content: '\f0c1';
+          font-size: 0.8em;
+          margin-left: 15px; }

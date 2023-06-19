@@ -1,0 +1,2 @@
+<meta name="description" content="Jeko Credit Federal Union (JEKOCFU) is not your typical bank. We are driven by a higher purpose and guided by a core set of values that inspire us to serve all of our stakeholders." />
+<meta name="keywords" content="Beko, Federal, Credit, Union, Jeko Credit Federal Union (JEKOCFU), bekofcu.com">
